@@ -24,15 +24,7 @@ Please add your name and domain name onto [this spreadsheet](https://docs.google
 
 ### Brackets
 
-[Adobe Brackets](http://brackets.io/) seems pretty cool, I'll check it out.
-
-### VS Code
-
-[Microsoft Visual Studio Code](https://code.visualstudio.com/) has evolved into the *de facto* IDE for several languages. Support for the Javascript ecosystem is particularly strong. Intergrates well with githGb
-
-### Git Version Control
-
-Save yourself the nightmare of hundreds of folders with names like `final portfolio test v3 (final)`. Is it essential? No. Will it make your life easier? Yes, if you knock a cup of tea over your laptop and loose 3 weeks of work.
+[Adobe Brackets](http://brackets.io/) Download it if you haven't already.
 
 ### Browsers
 
@@ -47,15 +39,15 @@ Chrome is now the most popular browser, thanks to Android. It **will** eat every
 * (Foundation)[https://foundation.zurb.com/]
 * (Semantic UI)[https://semantic-ui.com/]
 
-### Overview
+### Introduction to Grids
 
-### Getting Started
+[Grid documentation](https://getbootstrap.com/docs/4.1/layout/grid/)
 
 ### Project Directory Structure
 
 Depending on the project requirements there is literally *hundreds* of perscribed project structures.
 
-The following configuration is as "flat" as possible. Linking assets to pages 
+The following configuration is as "flat" as possible. Linking assets such as fonts and images to pages, will be straight forward
 
 ```
 basic.com/

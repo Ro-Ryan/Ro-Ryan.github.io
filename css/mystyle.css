@@ -1,0 +1,571 @@
+@font-face{
+font-family: url(../fonts/heimat-mono, sans-serif;) 
+font-weight: 700;
+font-style: normal; 
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+::selection {
+  background:  #f1f2f2;
+}
+
+.nodesktop{
+    display: none;
+}
+
+  .bigass{
+        display: none;
+    }
+
+
+
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+/*https://codepen.io/whusterj/pres/bdYKop*/
+
+
+.yoohoo{
+    padding-top: 100px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes yoohoo {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+h1{
+    font-family: 'Heimat Mono';
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 65x;
+}
+
+h2{
+   font-family: 'Heimat Mono';
+    font-weight: 700; 
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.lightgray{
+    color: #f1f2f2;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a{
+    color: #f73179;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #30ffed;
+    text-decoration: none;
+}
+
+.hovers:hover{
+     color: #30ffed;
+    text-decoration: none; 
+}
+
+.mywork:hover{
+    color: #30ffed;
+}
+
+.mise:hover{
+    color: #30ffed;
+}
+
+.logonav{
+   margin-top: 10px;
+}
+
+.nobig{
+        display: block;
+    }
+ 
+
+/*kavs code*/
+.rotate {
+    margin-right: 5px;
+    position: fixed;
+    right: 0px;
+    bottom: 90px;
+    transform: rotate(90deg);
+    transform-origin: top right;
+    z-index: 100;
+}
+
+.side{
+    margin-left: 40px;
+}
+
+.darkblue{
+    color: #1128e2; 
+}
+
+.pink{
+    color: #f73179;
+}
+
+.yellow{
+    color: #fcc130;
+}
+
+.blue{
+    color: #30ffed; 
+}
+
+.pushups{
+    margin-top: -50px;
+}
+
+.herorosalyn{
+   background-image: url(../img/hershotROS.jpg);
+    background-repeat: no-repeat;
+    height: 770px;
+}
+
+.ro{
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.menuleft{
+   background-color: #1229e1;
+   height: 100vh;
+   margin-left: none;
+    z-index: 100;
+}
+
+.menuright{
+    background-color: #f73179;
+    float: right;
+    margin-top: -688px; 
+    height: 100vh;
+    z-index: 100;
+}
+
+.mememe{
+    padding-top: 270px;
+}
+
+.navsmalltext{
+    margin-top: -10px;
+}
+
+.info{
+  width: 50px;
+  position: fixed;
+  bottom: 30px;
+  float: left;
+}
+
+.infobox{
+    background-color: #30fbea;
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 150px;
+/*    margin-left: 20px;*/
+}
+
+.infotext{
+    text-align: left;
+    padding-top: 50px;
+}
+
+.white{
+    color: white;
+}
+
+p.details{
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.minus{
+    padding-top: 10px;
+    position: fixed;
+    color: #f73179;
+}
+
+
+.pushupextra{
+    margin-top: -190px;
+}
+
+.padding{
+    padding: 0;
+    margin: 0;
+}
+
+.showworkpushdown{
+    margin-top: 10px;
+}
+
+.alittle{
+    padding-right: 10px;
+}
+
+.hello{
+    height: 600px; 
+    width: 100%;
+    overflow: scroll;
+    margin-left: 50px;
+/*    vertical-align: middle;*/
+}
+
+.windowbar{
+margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rightalign{
+   text-align: right; 
+}
+
+.backgr{
+    background-color: white;
+}
+
+.pushup{
+    margin-top: -6px;
+}
+
+.nexttext{
+    margin-top: 70px;
+}
+
+.pinkkk{
+    background-color: lightgrey;
+}
+
+.undernexttext{
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.hellooo{
+    font-weight: 700;
+}
+
+.arrowright{
+    padding-right: 30px;
+/*    margin-top: -10px;*/
+}
+
+.arrowleft{
+    padding-left: 30px;
+}
+
+.pictos{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+/*about*/
+
+.playful{
+    z-index: 50;
+    position: absolute;
+    padding-top: 80px;
+}
+
+/* pop-up about*/
+.item:hover .item-overlay.top {
+  top: 0;
+}
+/* 
+by default, overlay is visible… 
+*/
+.item-overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0; 
+  overflow: hidden;
+  width: 100%; 
+  
+  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+/*
+…but this hides it
+*/
+.item-overlay.top {
+  top: 100%;
+}
+/* 
+when .item:hover, show overlay.
+overwrite .item-overlay."position"
+*/
+.item:hover .item-overlay.top {
+  top: 0;
+}
+/* 
+by default, overlay is visible… 
+*/
+.item-overlay {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  overflow: hidden;
+  /* fix text transition issue for .left and .right but need to overwrite left and right properties in .right */
+  width: 100%;
+  
+  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+/*
+…but this hide it
+*/
+.item-overlay.top {
+  top: 100%;
+  margin-top: 45%;
+ background-color: #30ffed; 
+}
+/* misc. CSS */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+/* end of misc. CSS */
+
+.aboutcopy{
+    padding-top: 65px;
+}
+
+/*split screen*/
+
+.splitty{
+    padding-left: 45px;
+}
+
+.title{
+    z-index: 50;
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.sub{
+    margin-top: -15px;
+}
+
+.motyfbg{
+    background-color: lightblue;
+}
+
+.slightpush{
+    padding-left: 40px;
+}
+
+.teenie{
+margin-top: -2px;    
+}
+
+/*HOME*/
+
+.bleh{
+    position: absolute;
+    z-index: 50;
+    padding-top: 70px;
+}
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap;  /*Keeps the content on a single line*/
+  animation: 
+    typing 2s steps(30, end),
+    blink-caret .5s step-end;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% } /*speed*/
+}
+
+.homelogo{
+    padding-left: 20px;
+}
+
+.gifgc{
+    margin-top: -20px;
+}
+
+
+/*MEDIA QUERY*/
+
+/*MOBILE*/
+
+@media(max-width:576px){
+ 
+    .nomobile{
+        display: none;
+    }
+ 
+    h1{ 
+        font-size: 34px;
+        line-height: 40px;    
+    }
+    
+    .nodesktop{
+        display:block;
+    }
+    
+    .undernexttext{
+      padding-bottom: 0px;
+/*        margin-top: -40px;*/
+    }
+    
+    .arrowright{
+    padding-right: 0px;
+    margin-top: -47px;
+    margin-left: 330px;
+    }
+
+    .arrowleft{
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .nexttext{
+    margin-top: 0px;
+    }
+    
+    .client{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+   p.details{
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+    body{
+        cursor: default;
+    }
+    
+    .windowbar{
+    margin-left: 0px;
+    padding-left:60px;
+    padding-right: 50px;
+}
+    
+  .hello{
+    height: 180px; 
+    width: 100%;
+    overflow: scroll;
+   padding-right: 100px;
+}  
+
+    .callmemobile{
+        margin-top: 450px;
+    }
+    
+    .aboutcopy{
+    padding-top: 20px;
+}
+   
+    .info{
+      width: 50px;
+      position: fixed;
+      bottom: 30px;
+      float: left;
+      margin-left: -25px;
+    
+}
+    
+.title{
+    z-index: 50;
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 0px;
+    padding-left: 20px;
+}
+  
+    .bigass{
+        display: none;
+    }
+    
+    .slightpush{
+    padding-left: 20px;
+}
+    .homemobvid{
+        margin-top: -220px;
+    }
+    
+    .test{
+        padding-top: 10px;
+    }
+    
+}
+
+/*BIG SCREENS*/
+
+@media (min-width: 1200px) {
+
+  .bigass{
+        display: block;
+    }
+    
+    .nobig{
+        display: none;
+    }
+ 
+
+
+}
+
+

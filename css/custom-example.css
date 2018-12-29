@@ -1,0 +1,76 @@
+/*
+Custom CSS
+*/
+
+body{
+  background-color: gray;
+  padding-top: 100px;
+  font-family: 'Work Sans', sans-serif; 
+/*
+    font-family: 'Heimat Mono';
+    font-weight: 700;
+*/
+}
+
+h1{
+  font-family: 'Heimat Mono';
+  font-weight: 700;  
+}
+
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+@media(max-width:576px){
+  div[class^="col"]{
+    border-style: solid;
+    border-color:black;
+  }
+    p{
+        color: aquamarine;
+    }
+}
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+@media (min-width: 576px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:white;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+@media (min-width: 768px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:blue;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+@media (min-width: 992px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:yellow;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+@media (min-width: 1200px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:red;
+  }
+}

@@ -1,0 +1,81 @@
+/*
+Custom CSS
+*/
+
+body{
+  background-color: gray;
+  /* Stops the body from going under the navbar */
+  padding-top: 65px;
+}
+nav{
+  background-color: yellow;
+}
+.all-cols{
+  border-style: solid;
+  /* border-color: yellow; */
+}
+#img-got{
+  padding: 10px;
+  height: 400px;
+  width: auto;
+}
+#img-foo{
+  padding: 10px;
+  height: 400px;
+  z-index: -100;
+}
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+@media(max-width:576px){
+  h2{
+    font-size: 1rem
+  }
+  #img-foo{
+    display: none;
+  }
+  .all-cols{
+    border-color:black;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+@media (min-width: 576px) {
+  .all-cols{
+    border-color:white;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+@media (min-width: 768px) {
+  .all-cols{
+    border-color:blue;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 992px */
+
+@media (min-width: 992px) {
+  .all-cols{
+    border-color:yellow;
+  }
+}
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+
+@media (min-width: 1200px) {
+  .all-cols{
+    border-color:red;
+  }
+}
