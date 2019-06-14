@@ -316,6 +316,7 @@ margin-left: 50px;
     font-weight: 700;
 }
 
+
 .arrowright{
     padding-right: 30px;
 /*    margin-top: -10px;*/
@@ -332,6 +333,17 @@ margin-left: 50px;
 
 
 /*about*/
+
+.istd{
+    height: 70px;
+    width: 70px;
+    margin-top: 5px;
+}
+
+.awards{
+   margin-top: -0px;
+}
+
 
 .playful{
     z-index: 50;
@@ -471,6 +483,7 @@ margin-top: -2px;
 .gifgc{
     margin-top: -20px;
 }
+
 
 
 /*MEDIA QUERY*/
