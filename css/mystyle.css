@@ -1,488 +1,280 @@
 @font-face{
-font-family: 'Heimat';
-src: url(../fonts/Heimat/HeimatMono-Bold.otf) format('opentype'); 
-/*font-weight: 700;*/
-/*font-style: normal;*/ 
+font-family: 'lato', sans-serif;
+src: url(../fonts/Lato/Lato-Light.ttf) format('opentype'); 
+font-style: normal; 
 }
 
-/*
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
-*/
-/*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face{
+font-family: 'lato-reg';
+src: url(../fonts/Lato/Lato-Regular.ttf) format('opentype'); 
+font-style: normal; 
+}
+
+@font-face{
+font-family: 'display';
+src: url(../fonts/display/vg5000-regular_web.otf) format('opentype'); 
+font-style: normal; 
+}
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
     margin: 0px;
+    font-family: 'display';
 }
 
-::selection {
-  background:  #f1f2f2;
+h1{
+    font-family: 'display';
+    line-height: 52px;
+    font-size: 45px;
+    color: #0f4d27;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #f1afce;
+    transition: 0.15s;
+}
+
+a{
+   color: #0f4d27; 
+}
+
+/*LOGOSWAP https://codepen.io/Kodakawa/pen/wvBGGYW*/
+.logoswap{
+    position: relative;	
+	margin:  0 auto;
+    max-width: 80px;
+}
+
+.logoswap img{
+    position: absolute;
+    top:0;
+    left:0;
+	overflow: hidden;
+}
+
+.logoswap .logoswap-front{
+    z-index: 9999;
+    transition: opacity .15s linear;
+}
+
+.logoswap:hover > .logoswap-front{
+    opacity: 0;
+}
+/*LOGO SWAP*/
+
+h2{
+    font-family: 'display';
+/*    line-height: 80px;*/
+    font-size: 35px;  
+}
+
+p{
+    font-family: 'lato';
+    line-height: 25px;
+    font-size: 19px; 
+    color: #0f4d27;
+}
+
+.nav{
+    display: inline-flex;
+	align-content: flex-end;
+    position: fixed;
+    z-index: 9000;
+    margin-top: 23px;
+}
+
+.logo{
+    margin-top: 25px;
+}
+
+.shoveovernav{
+    padding-left: 30px;
+}
+
+.plantro{
+    padding: 0px;
+    position:fixed;
+    bottom:52px;
+}
+
+.bio{
+    margin-top: 160px;
+    bottom: 72px;
+}
+
+.biopush{
+    margin-top: 40px;
+}
+
+.menu{
+    position: fixed;
+    z-index: 9000;
+}
+
+hr.footerline {
+/*    border-top: 1px solid #f1afce;*/
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    border-top: 1px solid #f1afce;
+    z-index: 800;
+}
+
+.feet{
+    margin-top: 10px;
+    font-size: 17px;
 }
 
 .nodesktop{
     display: none;
 }
 
-  .bigass{
-        display: none;
-    }
-
-
-.floating {  
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-}
-
-@keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }    
-}
-/*https://codepen.io/whusterj/pres/bdYKop*/
-
-
-.yoohoo{
-    padding-top: 100px;
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes yoohoo {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }    
-}
-
-h1{
-    font-family: 'Heimat';
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 65x;
-}
-
-h2{
-   font-family: 'Heimat';
-    font-weight: 700; 
-    font-size: 34px;
-    line-height: 40px;
-}
-
-.lightgray{
-    color: #f1f2f2;
-}
-
-p{
-    font-family: 'Work Sans', sans-serif; 
-    font-size: 16px;
-    line-height: 20px;
-}
-
-a{
-    color: #f73179;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #30ffed;
-    text-decoration: none;
-}
-
-.hovers:hover{
-     color: #30ffed;
-    text-decoration: none; 
-}
-
-.mywork:hover{
-    color: #30ffed;
-}
-
-.mise:hover{
-    color: #30ffed;
-}
-
-.logonav{
-   margin-top: 10px;
-}
-
-.nobig{
+ .nomobile{
         display: block;
     }
- 
 
-/*kavs code*/
-.rotate {
-    margin-right: 5px;
+                        /*WORK*/
+
+h3{
+    font-family: 'lato-reg';
+    line-height: 8px;
+    font-size: 19px; 
+    color: #0f4d27;
+}
+
+.projects{
+    margin-top: 100px;
+    bottom: 200px;
+}
+
+.reveal:hover + .hide{
+    display: block;
+    transition: 0.5s;
+}
+
+.hide{
+    display: none;
     position: fixed;
-    right: 0px;
-    bottom: 90px;
-    transform: rotate(90deg);
-    transform-origin: top right;
-    z-index: 100;
+    margin-top: -74px;
+    transition: 0.5s;
 }
 
-.side{
-    margin-left: 40px;
+.itmag{
+    margin-top: 20px;
 }
 
-.darkblue{
-    color: #1128e2; 
+.re{
+    margin-top: 50px;
 }
 
-.pink{
-    color: #f73179;
-}
-
-.yellow{
-    color: #fcc130;
-}
-
-.blue{
-    color: #30ffed; 
-}
-
-.pushups{
-    margin-top: -50px;
-}
-
-.herorosalyn{
-   background-image: url(../img/hershotROS.jpg);
-    background-repeat: no-repeat;
-    height: 770px;
-}
-
-.ro{
-    text-align: center;
-    position: fixed;
-    z-index: 100;
-}
-
-
-ul {
-  list-style: none;
-}
-
-/*MENU*/
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box
-}
-
-.menubox{
-    max-width: 100%;
-}
-
-.menubox > div {
-  float: left;
-  padding: 1%;
-}
-
-/*https://stackoverflow.com/questions/41731608/responsive-2-columns-dont-line-up-at-top*/
-
-
-.menuleft{
-   background-color: #1229e1;
-   height: 100vh;
-   margin-left: none;
-    z-index: 100;
-/*    padding: 0px;*/
-    width: 50%;
-    float: left;
-}
-
-.menuright{
-    background-color: #f73179;
-    float: right;
-/*    margin-top: -688px; */
-    height: 100vh;
-    z-index: 100;
-    width: 50%;
-/*    padding: 0px;*/
-}
-
-.mememe{
-    padding-top: 270px;
-}
-
-.navsmalltext{
-    margin-top: -10px;
-}
-
-.info{
-  width: 50px;
-  position: fixed;
-  bottom: 30px;
-  float: left;
-}
-
-.infobox{
-    background-color: #30fbea;
-    overflow-y: auto;
-    height: 100vh;
-    padding-bottom: 150px;
-/*    margin-left: 20px;*/
-}
-
-.infotext{
-    text-align: left;
-    padding-top: 50px;
-}
-
-.white{
-    color: white;
-}
-
-p.details{
-    font-family: 'Work Sans', sans-serif; 
-    font-size: 32px;
-    line-height: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.minus{
-    padding-top: 10px;
-    position: fixed;
-    color: #f73179;
-}
-
-
-.pushupextra{
-    margin-top: -190px;
-}
-
-.padding{
-    padding: 0;
-    margin: 0;
-}
-
-.showworkpushdown{
+.explicit{
     margin-top: 10px;
 }
 
-.alittle{
-    padding-right: 10px;
+.mules{
+    margin-top: 80px;
 }
 
-.hello{
-    height: 600px; 
-    width: 100%;
-    overflow: scroll;
-    margin-left: 50px;
-/*    vertical-align: middle;*/
+.fob{
+    margin-top: 30px;
 }
 
-.windowbar{
-margin-left: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
+.bordbia{
+/*    margin-right: 10px;*/
 }
 
-.rightalign{
-   text-align: right; 
-}
-
-.backgr{
-    background-color: white;
-}
-
-.pushup{
-    margin-top: -6px;
-}
-
-.nexttext{
+.istd{
     margin-top: 70px;
 }
 
-.pinkkk{
-    background-color: lightgrey;
+.almacen{
+    margin-top: 30px;
 }
 
-.undernexttext{
-    padding-bottom: 60px;
-    background-color: white;
+.thetimes{
+    margin-top: 60px;
 }
 
-.hellooo{
-    font-weight: 700;
+.rosalyn{
+    margin-top: 10px;
+}
+
+.counterpoint{
+    margin-top: 20px;
+}
+
+.tusla{
+    margin-top: 70px;
+}
+
+.banished{
+    margin-top: 50px;
+}
+
+.other{
+    margin-top: 30px;
+}
+
+.bottomspace{
+    height: 100px;
+}
+
+                    /*IT MAGS*/
+
+.nopaddings{
+    padding: 0px;
+}
+
+.projecttext{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.up{
+    margin-top: -7px;
+}
+
+h4{
+    font-family: 'lato-reg';
+    font-size: 19px; 
+    color: #0f4d27;
+}
+
+.projimgs{
+    margin-top: 15px;
+}
+
+.nextproj{
+    margin-top: 30px;
+}
+
+.rightalign{
+    text-align: right;
+}
+
+                    /*EXPLICIT*/
+
+.explicitweb{
+    padding: 0px;
+    margin-top: -80px;
 }
 
 
-.arrowright{
-    padding-right: 30px;
-/*    margin-top: -10px;*/
-}
-
-.arrowleft{
-    padding-left: 30px;
-}
-
-.pictos{
-    padding-top: 30px;
-    padding-bottom: 40px;
-}
 
 
-/*about*/
-
-.istd{
-    height: 70px;
-    width: 70px;
-    margin-top: 5px;
-}
-
-.awards{
-   margin-top: -0px;
-}
 
 
-.playful{
-    z-index: 50;
-    position: absolute;
-    padding-top: 80px;
-}
 
-/* pop-up about*/
-.item:hover .item-overlay.top {
-  top: 0;
-}
-/* 
-by default, overlay is visible… 
-*/
-.item-overlay {
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0; 
-  overflow: hidden;
-  width: 100%; 
-  
-  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-}
-/*
-…but this hides it
-*/
-.item-overlay.top {
-  top: 100%;
-}
-/* 
-when .item:hover, show overlay.
-overwrite .item-overlay."position"
-*/
-.item:hover .item-overlay.top {
-  top: 0;
-}
-/* 
-by default, overlay is visible… 
-*/
-.item-overlay {
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  
-  background: rgba(0,0,0,0.5);
-  color: #fff;
-  overflow: hidden;
-  /* fix text transition issue for .left and .right but need to overwrite left and right properties in .right */
-  width: 100%;
-  
-  -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-  -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-  transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
-}
-/*
-…but this hide it
-*/
-.item-overlay.top {
-  top: 100%;
-  margin-top: 45%;
- background-color: #30ffed; 
-}
-/* misc. CSS */
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-.item {
-  position: relative;
-  overflow: hidden;
-}
-/* end of misc. CSS */
 
-.aboutcopy{
-    padding-top: 65px;
-}
-
-/*split screen*/
-
-.splitty{
-    padding-left: 45px;
-}
-
-.title{
-    z-index: 50;
-    position: absolute;
-    padding-top: 150px;
-    padding-left: 100px;
-}
-
-.sub{
-    margin-top: -15px;
-}
-
-.motyfbg{
-    background-color: lightblue;
-}
-
-.slightpush{
-    padding-left: 40px;
-}
-
-.teenie{
-margin-top: -2px;    
-}
-
-/*HOME*/
-
-.bleh{
-    position: absolute;
-    z-index: 50;
-    padding-top: 70px;
-}
-
-.typewriter{
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap;  /*Keeps the content on a single line*/
-  animation: 
-    typing 2s steps(30, end),
-    blink-caret .5s step-end;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 80% } /*speed*/
-}
-
-.homelogo{
-    padding-left: 20px;
-}
-
-.gifgc{
-    margin-top: -20px;
-}
 
 
 
@@ -491,125 +283,138 @@ margin-top: -2px;
 /*MOBILE*/
 
 @media(max-width:576px){
- 
+    h1{
+    font-family: 'display';
+    line-height: 35px;
+    font-size: 35px;
+    color: #0f4d27;
+}
+    .feet{
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    
     .nomobile{
         display: none;
     }
- 
-    h1{ 
-        font-size: 34px;
-        line-height: 40px;    
-    }
     
     .nodesktop{
-        display:block;
-    }
+        display: block;
+}
     
-    .undernexttext{
-      padding-bottom: 0px;
-/*        margin-top: -40px;*/
-    }
+    .logo{
+        margin-top: 25px;
+        margin-left: -7px;
+}
     
-    .arrowright{
-    padding-right: 0px;
-    margin-top: -47px;
-    margin-left: 330px;
-    }
+    .bio{
+        margin-top: 540px;
+        bottom: 400px;
+}
+    
+    .plantro{
+        padding: 0px;
+        position:fixed;
+        bottom:90px;
+/*    z-index: 500;*/
+}
 
-    .arrowleft{
-        padding-left: 0px;
+    .mobilebar{
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: white;
+        border-top: 1px solid #f1afce;
+        border-bottom: 1px solid #f1afce;
+        height: 40px;
+    }
+    
+    .mobiletext{
+        text-align: center;
+        padding: 14px;
+    }
+    
+     .mobilebarnotfirst{
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: white;
+        border-top: 1px solid #f1afce;
+        border-bottom: 1px solid #f1afce;
+        height: 40px;
+        margin-top: 30px;
+    }
+    
+    .mules{
+    margin-top: 20px;
+}
+    .explicit{
+    margin-top: 20px;
+}
+    .re{
+    margin-top: 10px;
+}
+    
+    .bordbia{
         margin-top: 20px;
     }
     
-    .nexttext{
-    margin-top: 0px;
-    }
-    
-    .client{
-        font-size: 18px;
-        line-height: 20px;
-    }
-    
-   p.details{
-    font-family: 'Work Sans', sans-serif; 
-    font-size: 16px;
-    line-height: 20px;
-    padding-top: 0px;
-    padding-bottom: 10px;
-}
-    body{
-        cursor: default;
-    }
-    
-    .windowbar{
-    margin-left: 0px;
-    padding-left:60px;
-    padding-right: 50px;
+    .istd{
+    margin-top: 20px;
 }
     
-  .hello{
-    height: 180px; 
-    width: 100%;
-    overflow: scroll;
-   padding-right: 100px;
-}  
+    .banished{
+        margin-top: 0px;
+    }   
+    
+    .thetimes{
+    padding-left: 40px;
+}
+    
+    .tusla{
+    margin-top: 30px;
+}
+    
+    .fw{
+       margin-top: 30px; 
+    }
+    
+    .bottomspace{
+        height: 150px;
+    }
+    
+    .projecttext{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
-    .callmemobile{
-        margin-top: 450px;
-    }
+   .projimgs{
+    margin-top: 8px;
+} 
     
-    .aboutcopy{
-    padding-top: 20px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
-   
-    .info{
-      width: 50px;
-      position: fixed;
-      bottom: 30px;
-      float: left;
-      margin-left: -25px;
-    
-}
-    
-.title{
-    z-index: 50;
-    position: absolute;
-    padding-top: 150px;
-    padding-left: 0px;
-    padding-left: 20px;
-}
-  
-    .bigass{
-        display: none;
-    }
-    
-    .slightpush{
-    padding-left: 20px;
-}
-    .homemobvid{
-        margin-top: -220px;
-    }
-    
-    .test{
-        padding-top: 10px;
-    }
-    
+
+/*iPAD*/
+
+@media (max-width: 992px){
+
 }
 
 /*BIG SCREENS*/
 
 @media (min-width: 1200px) {
-
-  .bigass{
-        display: block;
-    }
     
-    .nobig{
-        display: none;
-    }
- 
-
-
 }
-
-
