@@ -75,6 +75,7 @@ p{
     line-height: 25px;
     font-size: 19px; 
     color: #0f4d27;
+    font-weight: 300;
 }
 
 .nav{
@@ -148,6 +149,7 @@ h3{
     line-height: 8px;
     font-size: 19px; 
     color: #0f4d27;
+    font-weight: 400;
 }
 
 .projects{
