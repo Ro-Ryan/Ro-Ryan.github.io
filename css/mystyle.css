@@ -5,7 +5,7 @@ font-style: normal;
 }
 
 @font-face{
-font-family: 'lato-reg';
+font-family: 'lato-reg', sans-serif;
 src: url(../fonts/Lato/Lato-Regular.ttf) format('opentype'); 
 font-style: normal; 
 }
