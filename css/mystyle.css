@@ -5,7 +5,7 @@ font-style: normal;
 }
 
 @font-face{
-font-family: 'lato';
+font-family: 'lato', sans-serif;
 src: url(../fonts/Lato/Lato-Regular.ttf) format('opentype'); 
 font-style: normal; 
 }
@@ -248,6 +248,7 @@ h4{
     font-family: 'lato-reg';
     font-size: 19px; 
     color: #0f4d27;
+    font-weight: 400;
 }
 
 .projimgs{
