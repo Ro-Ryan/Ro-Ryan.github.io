@@ -270,9 +270,21 @@ h4{
     margin-top: -80px;
 }
 
+.rosweb{
+    width: 100%;
+    height: 750px;
+    overflow: auto;  
+}
 
+.sizer{
+    margin-top: 100px;
+    width: 700px;
+    height: 700px;
+}
 
-
+.grey{
+    background-color: #F9F6F6;
+}
 
 
 
@@ -402,7 +414,17 @@ h4{
     margin-top: -25px;    
 }
     
+    .rosweb{
+    width: 100%;
+    height: 300px;
+    overflow: auto;  
+}
     
+    .sizer{
+    margin-top: 0px;
+    width: 100%;
+/*    height: 100%;*/
+}
     
     
     
