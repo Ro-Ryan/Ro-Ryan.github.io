@@ -396,6 +396,10 @@ h1.home{
 .nodesktop{
         display: none;
     }
+
+.noipad{
+        display: block;
+    }
     
 
 
@@ -567,7 +571,30 @@ h1.home{
 /*iPAD*/
 
 @media (max-width: 992px){
-
+    
+    .noipad{
+        display: none;
+    }
+    
+    .aloe{
+    margin-left: -300px;
+    z-index: -30;
+    margin-top: 120px;
+}
+        .homepush{
+    margin-top: -70px;
+    margin-left: 0px;
+}
+    
+   .outline{
+    margin-top: -650px;
+    z-index: -500;
+} 
+     .sayhi{
+        margin-top: -270px;
+    }
+    
+    
 }
 
 /*LAPTOP*/
