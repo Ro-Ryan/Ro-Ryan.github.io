@@ -400,6 +400,10 @@ h1.home{
 .noipad{
         display: block;
     }
+
+.breaknodesktop{
+        display: none;
+    }
     
 
 
@@ -566,6 +570,7 @@ h1.home{
         display: block;
     }
     
+    
 }
 
 /*iPAD*/
@@ -576,6 +581,11 @@ h1.home{
         display: none;
     }
     
+    .breaknodesktop{
+        display: block;
+    }
+    
+/*
     .aloe{
     margin-left: -300px;
     z-index: -30;
@@ -593,6 +603,7 @@ h1.home{
      .sayhi{
         margin-top: -270px;
     }
+*/
     
     
 }
