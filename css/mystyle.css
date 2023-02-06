@@ -177,8 +177,17 @@ h3{
     margin-top: 50px;
 }
 
+.boldbrass{
+    margin-top: 65px;
+/*    margin-left: 15px;*/
+}
+
 .explicit{
     margin-top: 10px;
+}
+
+.acraveto{
+    margin-left: -30px;
 }
 
 .mules{
@@ -191,6 +200,10 @@ h3{
 
 .bordbia{
 /*    margin-right: 10px;*/
+}
+
+.bbnewlayout{
+    padding: 20px;
 }
 
 .istd{
@@ -219,7 +232,7 @@ h3{
 }
 
 .banished{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .other{
@@ -489,6 +502,18 @@ h1.home{
 }
     .re{
     margin-top: 10px;
+}
+    
+    .acraveto{
+    margin-left: 50px;
+}
+    
+    .luckysocks{
+        margin-left: 70px;
+    }
+    
+    .boldbrass{
+    margin-left: 65px;
 }
     
     .almacen{
