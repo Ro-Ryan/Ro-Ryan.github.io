@@ -177,6 +177,10 @@ h3{
     margin-top: 50px;
 }
 
+.hpal{
+    margin-left: 15px;
+}
+
 .boldbrass{
     margin-top: 65px;
 /*    margin-left: 15px;*/
@@ -511,6 +515,10 @@ h1.home{
     .luckysocks{
         margin-left: 70px;
     }
+    
+    .hpal{
+    margin-left: 70px;
+}
     
     .boldbrass{
     margin-left: 65px;
