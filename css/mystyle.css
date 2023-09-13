@@ -657,7 +657,7 @@ h1.home{
 
 /*BIG SCREENS*/
 
-@media (min-width: 1700px) {
+@media (min-width: 1800px) {
    
     p{
     font-family: 'lato';
